@@ -11,15 +11,11 @@ a:link, a:visited {
   text-align: center;
   a:link, a:visited {
     padding: 60px;
-    font-size: 30px;
+    font-size: 80px;
     color: black;
     text-decoration: none;
     font-weight: bold;
     }
-}
-
-h1 {
-  font-size: 80px;
 }
 
 h3 {
