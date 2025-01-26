@@ -37,10 +37,8 @@ h2 {
 }
 
 .intro {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+    display: inline-block;
+    text-align: center;
+    float:left;
 }
 
