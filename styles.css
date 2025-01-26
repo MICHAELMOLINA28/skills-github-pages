@@ -1,10 +1,23 @@
-body {
-  background-color: powderblue;
+@font-face {
+
+  font-family: "Trajan"; /* Choose a name for your font within your project */
+
+  src: url("path/to/your/trajan.ttf"); /* Replace "path/to/your/trajan.ttf" with the actual file path on your server */
+
+  font-weight: normal;
+
+  font-style: normal;
+
 }
-h1 {
-  color: black;
-  font-family: trajan;
-}
+
+
+
+/* Now you can use the font in your styles: */
+
 p {
-  color: red;
+
+  font-family: "Trajan", serif; /* Include a fallback font like serif in case Trajan is not available */
+
+  /* Other styling as needed */
+
 }
