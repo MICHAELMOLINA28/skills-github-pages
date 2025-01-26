@@ -18,6 +18,10 @@ a:link, a:visited {
     }
 }
 
+h1 {
+  font-size: 80px;
+}
+
 h3 {
   text-align: center;
 }
