@@ -18,12 +18,18 @@ a:link, a:visited {
     }
 }
 
-h3 {
-  text-align: center;
-}
-
 h2 {
   text-align: center;
+  font: 3.5em Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font: 3.5em Helvetica, sans-serif;
+}
+
+p {
+  font: 3.5em Helvetica, sans-serif;
 }
 
 article {
