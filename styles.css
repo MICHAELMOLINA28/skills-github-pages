@@ -37,6 +37,6 @@ h2 {
 }
 
 p {
-  text-align: justify;
-  text-align-last: center;
+  text-align: center;
+  text-align-last: auto;
 }
