@@ -25,6 +25,11 @@ a:link, a:visited {
   display: block;
 }
 
+logo {
+  height: auto;
+  width: 15px;
+}
+
 .header {
   padding: 60px;
   font: 3.5em Helvetica, sans-serif;
