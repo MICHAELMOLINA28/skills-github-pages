@@ -1,7 +1,8 @@
 .bg-img {
   background-image: url("DSC_8286.jpg");
-  height: 50%;
-
+  height: auto;
+  width: 100%;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
