@@ -32,13 +32,6 @@
     line-height: 1;
 }
 
-a:link, a:visited {
-  color: black;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
 .dropdown {
   position: relative;
   display: inline-block;
