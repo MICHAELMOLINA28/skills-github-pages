@@ -35,13 +35,13 @@
 
 .centered {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 50%;
+  left: 25px;
 }
 
 h1 {
   font-family: 'built_titling', Helvetica, sans-serif;
-  font-size: 120px;
+  font-size: 10vw;
   margin: 20px 0px;
   font-weight: normal;
   color: #FFFFFF;
