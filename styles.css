@@ -8,8 +8,9 @@
     position: relative;
 }
 .container {
-    max-width: 940px;
-    margin: 0 auto;
+  position: absolute;
+  margin: 20px;
+  width: auto;
 }
 #banner .container {
     display: flex;
