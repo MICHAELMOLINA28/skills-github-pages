@@ -18,12 +18,6 @@
 .banner-text {
     max-width: 470px;
 }
-.banner-text .banner-date {
-    font-family: 'built_titling', Helvetica, sans-serif;
-    font-size: 30px;
-    color: #FFFFFF;
-    font-weight: normal;
-}
 .banner-text .banner-title {
     font-family: 'built_titling', Helvetica, sans-serif;
     font-size: 120px;
