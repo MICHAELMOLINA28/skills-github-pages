@@ -7,11 +7,6 @@
     background-position: center;  
     position: relative;
 }
-.navbar .container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
 .navbar a {
   float: left;
   color: #f2f2f2;
