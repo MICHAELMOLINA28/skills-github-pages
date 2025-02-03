@@ -8,7 +8,7 @@
 }
 .container {
     max-width: 940px;
-    margin: 0 autol
+    margin: 0 auto;
 }
 #banner .container {
     display: flex;
