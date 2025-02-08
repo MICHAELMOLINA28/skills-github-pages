@@ -39,7 +39,11 @@
   font-weight: bold;
 }
 
-.topnav b {
+.topnav2 {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+.topnav2 a {
   float: left;
   color: black;
   text-align: center;
@@ -49,10 +53,10 @@
   line-height: 25px;
   border-radius: 4px;
 }
-.topnav b:hover {
+.topnav2 a:hover {
   color: gray;
 }
-.topnav b.logo {
+.topnav2 a.logo {
   font-family: 'built_titling', Helvetica, sans-serif;
   font-size: 35px;
   font-weight: bold;
