@@ -28,6 +28,8 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  line-height: 25px;
+  border-radius: 4px;
 }
 
 .topnav a:hover {
