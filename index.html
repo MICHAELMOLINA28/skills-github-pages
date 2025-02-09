@@ -5,25 +5,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <style>
- * {
-  box-sizing: border-box;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
 }
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-} 
 .space {
     background: white;
     height: 100px;
     width: 100%;
 }
-
 </style>  
 <body>
 
@@ -50,19 +49,11 @@
   
 <div class="space"></div><br>
 
-<div class="row">
-  <div class="column">
-    <img src="family.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="kids.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="military.jpg" style="width:100%">
-  </div>
-    <div class="column">
-    <img src="animal.jpg" style="width:100%">
-  </div>
+<div class="container">
+  <div><img src="family.jpg" style="width:100%"></div>
+  <div><img src="kids.jpg" style="width:100%"></div>
+  <div><img src="military.jpg" style="width:100%"></div>
+  <div><img src="animal.jpg" style="width:100%"></div>
 </div>
 
 <div class="space"></div><br>
