@@ -32,11 +32,16 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.containerC {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}  
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 10px;
+}
+.container2 > div {
+  background-color: white;
+  padding: 30px;
+}
 .space {
     background: white;
     height: 100px;
@@ -59,8 +64,9 @@ input[type=submit]:hover {
 
 <h3>Contact Form</h3>
 
-<div class="containerC">
-  <form action="/action_page.php">
+<div class="container2">
+  <div><img src="poster.jpg" style="width:100%"></div>
+  <div><form action="/action_page.php">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -78,7 +84,7 @@ input[type=submit]:hover {
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
-  </form>
+  </form></div>
 </div>
 
 <div class="space"></div><br>
