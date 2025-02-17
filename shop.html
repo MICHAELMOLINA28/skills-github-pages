@@ -5,16 +5,20 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <style>
-.float-container {
-border: 3px solid #fff;
-    padding: 20px;
+* {
+  box-sizing: border-box;
 }
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
-}  
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .space {
   background: white;
   height: 100px;
@@ -36,13 +40,12 @@ border: 3px solid #fff;
 
 <div class="space"></div><br> 
 
-<div class="float-container">
-  <div class="float-child">
-    <div class=<img src="poster.jpg"></div>
+<div class="row">
+  <div class="column">
+    <img src="poster.jpg" style="width:100%">
   </div>
-
-  <div class="float-child">
-    <div class=<img src="prints.jpg"></div>
+  <div class="column">
+    <img src="prints.jpg" style="width:100%">
   </div>
 </div>
 
