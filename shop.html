@@ -6,15 +6,43 @@
 </head>
 <style>
 .container2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: white;
-  padding: 10px;
-  margin: 100px;
+  position: relative;
+  width: 50%;
 }
-.container2 > div {
-  background-color: white;
-  padding: 30px;
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .space {
   background: white;
@@ -38,8 +66,10 @@
 <div class="space"></div><br> 
 
 <div class="container2">
-  <div><img src="poster.jpg" style="width:100%"></div>
-  <div><img src="prints.jpg" style="width:100%"></div>
+  <img src="poster.jpg" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
 </div>
 
 <div class="space"></div><br> 
