@@ -5,19 +5,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <style>
-* {
-  box-sizing: border-box;
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 10px;
+  margin: 100px;
 }
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.container2 > div {
+  background-color: white;
+  padding: 30px;
 }
 .space {
   background: white;
@@ -40,13 +37,9 @@
 
 <div class="space"></div><br> 
 
-<div class="row">
-  <div class="column">
-    <img src="poster.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="prints.jpg" style="width:100%">
-  </div>
+<div class="container2">
+  <div><img src="poster.jpg" style="width:100%"></div>
+  <div><img src="prints.jpg" style="width:100%"></div>
 </div>
 
 <div class="space"></div><br> 
