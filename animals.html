@@ -4,7 +4,53 @@
   <title>Gallery-Animals</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<style></style>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.space {
+  background: white;
+  height: 100px;
+  width: 100%;
+}
+  
+</style>
 <body>
   
 <div class="container">
@@ -17,7 +63,47 @@
     <a href="contact.html">Contact</a>
   </div>
 </div>
- 
+
+<div class="space"></div><br> 
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="animals1.jpg">
+      <img src="animals1.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="animal2.jpg">
+      <img src="animals2.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="animals3.jpg">
+      <img src="animals3.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="animals4.jpg">
+      <img src="animals4.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="space"></div><br> 
+  
 </body>
   
 </html>
