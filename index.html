@@ -87,10 +87,6 @@ img {vertical-align: middle;}
     height: 100px;
     width: 100%;
 }
-.container3 {
-  position: relative;
-  width: 50%;
-}
 
 .image {
   opacity: 1;
@@ -112,11 +108,11 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-.container3:hover .image {
+.container2:hover .image {
   opacity: 0.3;
 }
 
-.container3:hover .middle {
+.container2:hover .middle {
   opacity: 1;
 }
 
@@ -196,14 +192,19 @@ function showSlides(n) {
 <div class="space"></div><br>
 
 <div class="container2">
-  <div><img src="family.jpg" style="width:100%"></div>
-  <div><img src="kids.jpg" style="width:100%"></div>
-  <div><img src="military.jpg" style="width:100%"></div>
-  <div><img src="animal.jpg" style="width:100%"></div>
-</div>
-  
-<div class="container3">
-  <img src="family.jpg" alt="Avatar" class="image" style="width:100%">
+  <div><img src="family.jpg" class="image" style="width:100%"></div>
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+  <div><img src="kids.jpg" class="image" style="width:100%"></div>
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+  <div><img src="military.jpg" class="image" style="width:100%"></div>
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+  <div><img src="animal.jpg" class="image" style="width:100%"></div>
   <div class="middle">
     <div class="text">John Doe</div>
   </div>
