@@ -5,37 +5,22 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <style>
-.container2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: white;
-  padding: 10px;
-  margin: 100px;
+div.background {
+  background: url(poster.jpg) repeat;
+  border: 2px solid black;
 }
-.container2 > div {
-  background-color: white;
-  padding: 30px;
-}
-.text-block {
-  position: absolute;
-  top: 50%;
-  left: 10%;
+
+div.transbox {
+  margin: 30px;
   background-color: #ffffff;
-  opacity: 0.5;
+  border: 1px solid black;
+  opacity: 0.6;
 }
-.text-block a {
+
+div.transbox p {
   margin: 5%;
-  text-align: center;
   font-weight: bold;
   color: #000000;
-}
-.text-block2 {
-  position: absolute;
-  color: black;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  font-size: 18px;
 }
 .space {
   background: white;
@@ -58,17 +43,10 @@
 
 <div class="space"></div><br> 
 
-<div class="container2">
-  <div><img src="poster.jpg" style="width:100%"></div>
-    <div class="text-block">
-      <h4>Nature</h4>
-      <p>What a beautiful sunrise</p>
-    </div>
-  <div><img src="prints.jpg" style="width:100%"></div>
-    <div class="text-block2">
-      <h4>Nature</h4>
-      <p>What a beautiful sunrise</p>
-    </div>
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
 </div>
 
 <div class="space"></div><br> 
