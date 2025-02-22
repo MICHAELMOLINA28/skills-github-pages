@@ -65,10 +65,16 @@ input[type=submit]:hover {
 
 <div class="container2">
   <div><img src="contact.jpg" style="width:100%"></div>
-  <div><h3>Contact Form</h3><form action="Welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
+  <div><h3>Contact Form</h3><form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form></div>
 </div>
 
