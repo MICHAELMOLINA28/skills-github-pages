@@ -36,12 +36,9 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 .container2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: white;
-  padding: 10px;
-  margin: 100px;
   border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 .container2 > div {
   background-color: white;
@@ -116,11 +113,7 @@ input[type=submit]:hover {
       <label for="country">Country</label>
     </div>
     <div class="col-75">
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
+      <input type="text" id="email" name="emailaddress" placeholder="Your email address..">
     </div>
   </div>
   <div class="row">
@@ -128,7 +121,7 @@ input[type=submit]:hover {
       <label for="subject">Subject</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Describe your request.." style="height:200px"></textarea>
     </div>
   </div>
   <br>
